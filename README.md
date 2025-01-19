@@ -17,3 +17,4 @@ python3 main.py
 ```
 
 # Preview
+![Screenshot from 2025-01-19 14-42-15](https://github.com/user-attachments/assets/f3fe05ef-dfbc-4eac-8e3b-4b8e6905a33a)
