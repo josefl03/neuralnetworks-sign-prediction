@@ -1,4 +1,4 @@
-# neuralnetworks-sign-prediction
+# Neural Networks Sign Prediction DEMO
  
 This is the repository for the Sign Prediction DEMO
 
