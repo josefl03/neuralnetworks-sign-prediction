@@ -266,7 +266,7 @@ p, li { white-space: pre-wrap; }
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Made by Neural Networks Team 12 @ FER | [Github]()</string>
+         <string>Made for Neural Networks @ FER | [Github](https://github.com/josefl03/neuralnetworks-sign-prediction/tree/main)</string>
         </property>
         <property name="textFormat">
          <enum>Qt::MarkdownText</enum>
