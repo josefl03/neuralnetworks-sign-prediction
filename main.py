@@ -23,7 +23,7 @@ categories = {
     22: "W", 23: "X", 24: "Y", 25: "Z", 26: "del", 27: "nothing", 28: "space"
 }
 
-TIMER_INTERVAL = 2000
+TIMER_INTERVAL = 1500
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -81,6 +81,8 @@ class MainWindow(QMainWindow):
         self.camera.start()
 
         # Set up the timer
+        self.imageCapture.imageCaptured.connect(self.image_captured)
+
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.capture_image)  # Connect timeout to update_counter
 
@@ -97,7 +99,6 @@ class MainWindow(QMainWindow):
         self.camera.start()
 
     def capture_image(self):
-        self.imageCapture.imageCaptured.connect(self.image_captured)
         self.imageCapture.capture()
         logger.info("Captured.")
 
