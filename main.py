@@ -4,16 +4,13 @@ from PyQt5.uic import loadUi
 from PyQt5.QtMultimedia import QCameraInfo, QCamera
 from PyQt5.QtMultimediaWidgets import QCameraViewfinder
 import logging
-from pprint import pprint
-import tensorflow as tf
 from PyQt5.QtCore import QThread
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, GlobalAveragePooling2D, Dense
 from tensorflow.keras.models import Model
-from tensorflow.keras.applications import ResNet50, ResNet50V2
+from tensorflow.keras.applications import ResNet50V2
 from PyQt5.QtGui import QPainter, QPen, QImage
 from PyQt5.QtCore import Qt, pyqtSignal, pyqtSlot
 from PyQt5.QtMultimedia import QCameraImageCapture
-import queue
 from PyQt5.QtGui import QPixmap
 import numpy as np
 from PyQt5.QtCore import QTimer

@@ -1,0 +1,4 @@
+tensorflow
+tf-keras
+numpy
+pyqt5
